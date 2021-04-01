@@ -16,9 +16,7 @@ namespace CarParkFeesEngine.API.Controllers
         }
 
         [HttpGet]
-        public CarParkingRateDto GetCarParkingRate([FromQuery]CarParkingTimeInputDto carParkingTimeDto)
-        {
-            return _CarParkFeesCalculatorService.CalculateCarParkFees(carParkingTimeDto);
-        }
+        public CarParkingRateDto GetCarParkingRate([FromQuery]CarParkingTimeInputDto carParkingTimeDto) => 
+             _CarParkFeesCalculatorService.CalculateCarParkFees(carParkingTimeDto);
     }
 }
