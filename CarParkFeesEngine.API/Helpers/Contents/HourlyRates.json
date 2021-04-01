@@ -1,0 +1,18 @@
+[
+  {
+    "MaxAllowedHours": 1,
+    "TotalPrice": 5.00
+  },
+  {
+    "MaxAllowedHours": 2,
+    "TotalPrice": 10.00
+  },
+  {
+    "MaxAllowedHours": 3,
+    "TotalPrice": 15.00
+  },
+  {
+    "MaxAllowedHours": 24,
+    "TotalPrice": 20.00
+  }
+]

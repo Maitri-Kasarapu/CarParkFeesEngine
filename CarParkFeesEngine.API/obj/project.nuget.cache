@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "voPN2i+WXTPgLIlnr4Fqm4qrN64oYzbAG85jbuEwNnVBGrUnyzprIt0lOECj7mbGcM0BTGOuqrTmvy3LHHNWGA==",
+  "dgSpecHash": "yvmJpfDJky8liw8Y2pz26R4uH+S9ow62UYsdGR6jcfzGM80bwOYuCDAHwvlOFObFHjF3ztM3foNE/T6r1QLl2g==",
   "success": true,
   "projectFilePath": "D:\\Maitri\\GitHub\\CarParkFeesEngine\\CarParkFeesEngine.API\\CarParkFeesEngine.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vskum\\.nuget\\packages\\funky\\3.0.0\\funky.3.0.0.nupkg.sha512",
+    "C:\\Users\\vskum\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\vskum\\.nuget\\packages\\reflections\\3.0.0\\reflections.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

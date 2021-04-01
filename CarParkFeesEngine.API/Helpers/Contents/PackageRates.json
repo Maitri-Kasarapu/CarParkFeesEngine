@@ -1,0 +1,85 @@
+[
+  {
+    "Name": "Early Bird",
+    "Type": "Flat Rate",
+    "TotalPrice": 13.00,
+    "EntryCondition": {
+      "StartTime": "6:00",
+      "EndTime": "9:00",
+      "ParkingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    "ExitCondition": {
+      "StartTime": "15:30",
+      "EndTime": "23:30",
+      "ParkingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    "MaxDaysAllowed": 0
+  },
+  {
+    "Name": "Night Rate",
+    "Type": "Flat Rate",
+    "TotalPrice": 6.50,
+    "EntryCondition": {
+      "StartTime": "18:00",
+      "EndTime": "00:00",
+      "ParkingDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    "ExitCondition": {
+      "StartTime": "18:00",
+      "EndTime": "08:00",
+      "ParkingDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    "MaxDaysAllowed": 1
+  },
+  {
+    "Name": "WeekEndTime Rate",
+    "Type": "Flat Rate",
+    "TotalPrice": 10.00,
+    "EntryCondition": {
+      "StartTime": "00:00",
+      "EndTime": "00:00",
+      "ParkingDays": [
+        "Sunday",
+        "Saturday"
+      ]
+    },
+    "ExitCondition": {
+      "StartTime": "00:00",
+      "EndTime": "00:00",
+      "ParkingDays": [
+        "Sunday",
+        "Monday",
+        "Saturday"
+      ]
+    },
+    "MaxDaysAllowed": 2
+  }
+]
